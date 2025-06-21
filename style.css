@@ -1,0 +1,151 @@
+h1 {
+    font-size: 61px;
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    span{
+        font-size: 25px;
+        background-color: white;
+        padding: 5px 10px 10px 10px;
+        display: inline-block;
+    }
+    }
+
+
+.shitumon{
+    font-size: 27px;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.sentaku-orengi{
+    background-color: #FFD268;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 60px 100px 20px 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        font-size: 21px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+.sentaku-ao{
+    background-color: #82C7F5;
+    padding: 15px;
+    border-radius: 8px;
+    margin: 20px 100px 40px 100px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    a {
+        font-size: 21px;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+    }
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.7)), url('img/haikei.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Arial', 'Helvetica', sans-serif;
+}
+
+.gazou {
+    text-align: center;
+    margin: 20px 0;
+    img {
+        width: 40%;
+        height: auto;
+    }
+}
+
+.kadai{
+    font-size: 15px;
+    text-align: center;
+    writing-mode: horizontal-tb;
+    text-align: center;
+}
+
+.kekka1{
+    font-size: 23px;
+    text-align: center;
+    background-color: #DEFFA0;
+    padding: 10px;
+    margin: 20px 75px 10px 75px;
+    span{
+        font-size: 43px;
+        font-weight: bold;
+        color: black;
+    }
+}
+
+.osusume{
+    font-size: 22px;
+    text-align: center;
+    font-weight: bold;
+    margin: 7px 20px 0 20px;
+}
+
+.gazou1{
+    display: flex;
+    align-items: flex-start;
+ }
+
+.book-img{
+    width: 30%;
+    height: auto;
+    background-color: white;
+    padding: 10px;
+    margin: 5px 20px 20px 20px;
+}
+
+.text-block{
+    width: 55%;
+}
+
+.title{
+    font-size: 21px;
+    font-weight: bold;
+    margin-top: 12px;
+    margin-bottom: 0;
+    span{
+        font-size: 13px;
+    }
+}
+
+.section-title{
+    font-size: 15px;
+    margin-top: 0;
+    margin-bottom: 3px;
+    font-weight: bold;
+}
+
+.description{
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 1.6;
+}
+
+.tameshi{
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #58E14B;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 10px 120px 20px 120px;
+}
